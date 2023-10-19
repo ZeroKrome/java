@@ -166,19 +166,35 @@
 // }else {( age > 18) 
 //     console.log("vous etent majeur");
 // }
-let couleurs = "rouge";
+// let couleurs = "rouge";
+let couleurs = prompt("veuillez saisir une couleur :");
 
+// switch (couleurs) {
+//     case ("rouge"):
+//         console.log("danger");
+//         break;
+//     case ("orange"):
+//         console.log("attention");
+//         break;
+//     case ("vert"):
+//         console.log("sécurité");
+//         break;
+//     default:
+//         console.log("aucune valeur");
+//         break;
+// }
 switch (couleurs) {
     case ("rouge"):
-        console.log("danger");
+       alert("danger");
         break;
     case ("orange"):
-        console.log("attention");
+        alert("attention");
         break;
     case ("vert"):
-        console.log("sécurité");
+        alert("sécurité");
         break;
     default:
-        console.log("aucune valeur");
+       alertr("aucune valeur");
         break;
 }
+
